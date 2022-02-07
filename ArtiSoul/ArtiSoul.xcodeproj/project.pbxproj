@@ -8,21 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */; };
-		42E3603327B1757C00C366A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603227B1757C00C366A0 /* ContentView.swift */; };
+		42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603227B1757C00C366A0 /* ContentView1.swift */; };
 		42E3603527B1757E00C366A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603427B1757E00C366A0 /* Assets.xcassets */; };
 		42E3603827B1757E00C366A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603727B1757E00C366A0 /* Preview Assets.xcassets */; };
 		42E3603A27B1757E00C366A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603927B1757E00C366A0 /* Persistence.swift */; };
 		42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603B27B1757E00C366A0 /* ArtiSoul.xcdatamodeld */; };
+		42E3604427B17BCF00C366A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3604327B17BCF00C366A0 /* MainView.swift */; };
+		42E3604627B1830500C366A0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3604527B1830500C366A0 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42E3602D27B1757C00C366A0 /* ArtiSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtiSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiSoulApp.swift; sourceTree = "<group>"; };
-		42E3603227B1757C00C366A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42E3603227B1757C00C366A0 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		42E3603427B1757E00C366A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E3603727B1757E00C366A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42E3603927B1757E00C366A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		42E3603C27B1757E00C366A0 /* ArtiSoul.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtiSoul.xcdatamodel; sourceTree = "<group>"; };
+		42E3604327B17BCF00C366A0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42E3604527B1830500C366A0 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */,
-				42E3603227B1757C00C366A0 /* ContentView.swift */,
+				42E3604327B17BCF00C366A0 /* MainView.swift */,
+				42E3604527B1830500C366A0 /* ExploreView.swift */,
+				42E3603227B1757C00C366A0 /* ContentView1.swift */,
 				42E3603427B1757E00C366A0 /* Assets.xcassets */,
 				42E3603927B1757E00C366A0 /* Persistence.swift */,
 				42E3603B27B1757E00C366A0 /* ArtiSoul.xcdatamodeld */,
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */,
+				42E3604427B17BCF00C366A0 /* MainView.swift in Sources */,
+				42E3604627B1830500C366A0 /* ExploreView.swift in Sources */,
 				42E3603A27B1757E00C366A0 /* Persistence.swift in Sources */,
-				42E3603327B1757C00C366A0 /* ContentView.swift in Sources */,
+				42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */,
 				42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
