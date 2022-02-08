@@ -11,9 +11,19 @@ struct ExploreView: View {
     
     @State private var searchText = ""
     
+    let spacing: CGFloat = 10
+    let numberOfRows = 2
+//    let columns = Array(repeating: GridItem(.flexible(), spacing: spacing), count: numberOfRows)
+   
+    
     var body: some View {
         NavigationView{
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            ScrollView{
+                let columns = Array(repeating: GridItem(.flexible(), spacing: spacing), count: numberOfRows)
+                LazyVGrid(columns: columns, spacing: spacing){
+                    
+                }
+            }
                 .searchable(text: $searchText)
                 .navigationBarTitle("Explore")
                 
