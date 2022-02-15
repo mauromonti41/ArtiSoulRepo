@@ -13,8 +13,6 @@ struct ProfileView: View {
     @State private var showingImagePicker = false
     @State private var inputImage: UIImage?
     
-    @State private var 
-    
     
     var body: some View {
         NavigationView{
