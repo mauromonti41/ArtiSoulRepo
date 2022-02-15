@@ -11,6 +11,8 @@ struct ExploreView: View {
     
     @State private var searchText = ""
     
+   
+    
     let spacing: CGFloat = 10
     let numberOfRows = 2
 //    let columns = Array(repeating: GridItem(.flexible(), spacing: spacing), count: numberOfRows)

@@ -13,13 +13,17 @@ struct MainView: View {
     
     var body: some View {
         TabView{
-        ExploreView()
+            ExploreView()
                 .tabItem{
                     Label("Explore", systemImage: "magnifyingglass")
             }
         Text("This should be a favourite section")
                 .tabItem{
                     Label("Favourites", systemImage:"heart.fill")
+                }
+            ProfileView()
+                .tabItem{
+                    Label("Profile", systemImage: "person.fill")
                 }
         }
     }
