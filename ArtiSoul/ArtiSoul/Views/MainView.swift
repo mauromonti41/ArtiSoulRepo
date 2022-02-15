@@ -13,7 +13,7 @@ struct MainView: View {
     
     var body: some View {
         TabView{
-        ExploreView()
+            ExploreView()
                 .tabItem{
                     Label("Explore", systemImage: "magnifyingglass")
             }
