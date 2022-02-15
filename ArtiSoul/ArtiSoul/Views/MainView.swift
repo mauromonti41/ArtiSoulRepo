@@ -21,6 +21,10 @@ struct MainView: View {
                 .tabItem{
                     Label("Favourites", systemImage:"heart.fill")
                 }
+            ProfileView()
+                .tabItem{
+                    Label("Profile", systemImage: "person.fill")
+                }
         }
     }
 }
