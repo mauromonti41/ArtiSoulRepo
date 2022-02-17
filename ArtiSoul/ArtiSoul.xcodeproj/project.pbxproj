@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4236D7BA27BE975700A986F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4236D7B927BE975700A986F2 /* ProfileView.swift */; };
 		42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */; };
 		42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603227B1757C00C366A0 /* ContentView1.swift */; };
 		42E3603527B1757E00C366A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603427B1757E00C366A0 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4236D7B927BE975700A986F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		42E3602D27B1757C00C366A0 /* ArtiSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtiSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiSoulApp.swift; sourceTree = "<group>"; };
 		42E3603227B1757C00C366A0 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		4D3D379727BD098B005D0203 /* ArtisanProfileView */ = {
 			isa = PBXGroup;
 			children = (
+				4236D7B927BE975700A986F2 /* ProfileView.swift */,
 			);
 			path = ArtisanProfileView;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				4D3D379227BC0FEA005D0203 /* ProductViewModel.swift in Sources */,
 				42E3603A27B1757E00C366A0 /* Persistence.swift in Sources */,
 				42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */,
+				4236D7BA27BE975700A986F2 /* ProfileView.swift in Sources */,
 				4D3D379B27BD1DCE005D0203 /* EnumStruct.swift in Sources */,
 				42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */,
 				4D3D379427BD061B005D0203 /* GridView.swift in Sources */,

@@ -16,7 +16,7 @@ struct ArtisanInfo: Identifiable {
     var idProduct : [UUID]
     var name: String
     var surname: String
-    var titol: String
+    var handicraft: String
     var imageName: String
     var link: [String] = []
     var shortBio: String
