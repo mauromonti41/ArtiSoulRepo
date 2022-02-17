@@ -1,28 +1,21 @@
 //
-//  DataModel.swift
+//  ProductModel.swift
 //  ArtiSoul
 //
-//  Created by Mauro Monti on 15/02/22.
+//  Created by Pierluigi Iacono on 15/02/22.
 //
 
-import SwiftUI
 import Foundation
+import SwiftUI
 
-
-struct Product : Identifiable{
+struct Productinfo: Identifiable{
     
     let id = UUID()
-    
-    var name : String
-    
-//    FOR CARDS
-    
-    var firstImage : Image
-//    var secondImage : Image
-//    var thirdImage : Image
-//    var howImMade : String
-//    var howToCare : String
-//    var howToMove : String
+//    var video:
+    var name: String
+    var artisanId : UUID
+    var descrizione: [String] = []
+    var image: [Image] 
+    var favorite : Bool = false
+    var tag: [Tags]
 }
-
-
