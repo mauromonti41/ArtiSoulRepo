@@ -6,18 +6,19 @@
 //
 
 import Foundation
+import SwiftUI
 
 
 
 
-struct ArtisanInfo: Identifiable {
+struct ArtisanModel: Identifiable {
     
     let id = UUID()
     var idProduct : [UUID]
     var name: String
     var surname: String
-    var handicraft: String
-    var imageName: String
+    var title: String
+    var image: Image
     var link: [String] = []
     var shortBio: String
 //    var access: Access

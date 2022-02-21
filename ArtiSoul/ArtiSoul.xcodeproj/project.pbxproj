@@ -7,30 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4236D7BA27BE975700A986F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4236D7B927BE975700A986F2 /* ProfileView.swift */; };
+		423DBB1F27C3CFD700FB9A02 /* ProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423DBB1E27C3CFD700FB9A02 /* ProductInfoView.swift */; };
 		42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */; };
 		42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603227B1757C00C366A0 /* ContentView1.swift */; };
 		42E3603527B1757E00C366A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603427B1757E00C366A0 /* Assets.xcassets */; };
 		42E3603827B1757E00C366A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603727B1757E00C366A0 /* Preview Assets.xcassets */; };
 		42E3603A27B1757E00C366A0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603927B1757E00C366A0 /* Persistence.swift */; };
 		42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603B27B1757E00C366A0 /* ArtiSoul.xcdatamodeld */; };
-		42E3604427B17BCF00C366A0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3604327B17BCF00C366A0 /* MainView.swift */; };
+		42E3604427B17BCF00C366A0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3604327B17BCF00C366A0 /* ExploreView.swift */; };
 		42E3604627B1830500C366A0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3604527B1830500C366A0 /* CardView.swift */; };
+		42FD484727C3AAE1008FD2CE /* ProductCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD483F27C3AAE1008FD2CE /* ProductCreationView.swift */; };
+		42FD484827C3AAE1008FD2CE /* ToolAddedBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484127C3AAE1008FD2CE /* ToolAddedBarView.swift */; };
+		42FD484927C3AAE1008FD2CE /* ArtisanProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484227C3AAE1008FD2CE /* ArtisanProfileImageView.swift */; };
+		42FD484A27C3AAE1008FD2CE /* ToolAddBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484327C3AAE1008FD2CE /* ToolAddBarView.swift */; };
+		42FD484B27C3AAE1008FD2CE /* ToolPublishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484427C3AAE1008FD2CE /* ToolPublishedView.swift */; };
+		42FD484C27C3AAE1008FD2CE /* TextInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484527C3AAE1008FD2CE /* TextInfoView.swift */; };
+		42FD484D27C3AAE1008FD2CE /* EditingProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484627C3AAE1008FD2CE /* EditingProfileView.swift */; };
+		42FD485027C3AE56008FD2CE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FD484F27C3AE56008FD2CE /* ImagePicker.swift */; };
 		4D3D377627B6BF0E005D0203 /* ArtisanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D377527B6BF0E005D0203 /* ArtisanModel.swift */; };
 		4D3D378A27BC0DDA005D0203 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D378927BC0DDA005D0203 /* ProductModel.swift */; };
 		4D3D378C27BC0E02005D0203 /* AccessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D378B27BC0E02005D0203 /* AccessModel.swift */; };
 		4D3D379027BC0F14005D0203 /* ArtisanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D378F27BC0F14005D0203 /* ArtisanViewModel.swift */; };
 		4D3D379227BC0FEA005D0203 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379127BC0FEA005D0203 /* ProductViewModel.swift */; };
 		4D3D379427BD061B005D0203 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379327BD061B005D0203 /* GridView.swift */; };
-		4D3D379927BD0BBF005D0203 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379827BD0BBF005D0203 /* HeaderView.swift */; };
+		4D3D379927BD0BBF005D0203 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379827BD0BBF005D0203 /* MainView.swift */; };
 		4D3D379B27BD1DCE005D0203 /* EnumStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379A27BD1DCE005D0203 /* EnumStruct.swift */; };
 		4D3D379F27BD4EF7005D0203 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D379E27BD4EF7005D0203 /* ProductView.swift */; };
-		4D64BB7227BE621F00BD21A7 /* ProductCardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64BB7127BE621F00BD21A7 /* ProductCardView1.swift */; };
+		4D64BB7227BE621F00BD21A7 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64BB7127BE621F00BD21A7 /* ProductCardView.swift */; };
 		4D64BB7427BE624700BD21A7 /* ProfileCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D64BB7327BE624700BD21A7 /* ProfileCardView.swift */; };
+		4D6BC3A627BEFBE20008AEFF /* ProductCardBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6BC3A527BEFBE20008AEFF /* ProductCardBot.swift */; };
+		4D91F2AF27BE9F820076C449 /* ScrollViewHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91F2AE27BE9F820076C449 /* ScrollViewHorizontal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4236D7B927BE975700A986F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		423DBB1E27C3CFD700FB9A02 /* ProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInfoView.swift; sourceTree = "<group>"; };
 		42E3602D27B1757C00C366A0 /* ArtiSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtiSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiSoulApp.swift; sourceTree = "<group>"; };
 		42E3603227B1757C00C366A0 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
@@ -38,19 +48,29 @@
 		42E3603727B1757E00C366A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42E3603927B1757E00C366A0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		42E3603C27B1757E00C366A0 /* ArtiSoul.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtiSoul.xcdatamodel; sourceTree = "<group>"; };
-		42E3604327B17BCF00C366A0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42E3604327B17BCF00C366A0 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		42E3604527B1830500C366A0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		42FD483F27C3AAE1008FD2CE /* ProductCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCreationView.swift; sourceTree = "<group>"; };
+		42FD484127C3AAE1008FD2CE /* ToolAddedBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolAddedBarView.swift; sourceTree = "<group>"; };
+		42FD484227C3AAE1008FD2CE /* ArtisanProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtisanProfileImageView.swift; sourceTree = "<group>"; };
+		42FD484327C3AAE1008FD2CE /* ToolAddBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolAddBarView.swift; sourceTree = "<group>"; };
+		42FD484427C3AAE1008FD2CE /* ToolPublishedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolPublishedView.swift; sourceTree = "<group>"; };
+		42FD484527C3AAE1008FD2CE /* TextInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextInfoView.swift; sourceTree = "<group>"; };
+		42FD484627C3AAE1008FD2CE /* EditingProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingProfileView.swift; sourceTree = "<group>"; };
+		42FD484F27C3AE56008FD2CE /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		4D3D377527B6BF0E005D0203 /* ArtisanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisanModel.swift; sourceTree = "<group>"; };
 		4D3D378927BC0DDA005D0203 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		4D3D378B27BC0E02005D0203 /* AccessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessModel.swift; sourceTree = "<group>"; };
 		4D3D378F27BC0F14005D0203 /* ArtisanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisanViewModel.swift; sourceTree = "<group>"; };
 		4D3D379127BC0FEA005D0203 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		4D3D379327BD061B005D0203 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
-		4D3D379827BD0BBF005D0203 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4D3D379827BD0BBF005D0203 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4D3D379A27BD1DCE005D0203 /* EnumStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumStruct.swift; sourceTree = "<group>"; };
 		4D3D379E27BD4EF7005D0203 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
-		4D64BB7127BE621F00BD21A7 /* ProductCardView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView1.swift; sourceTree = "<group>"; };
+		4D64BB7127BE621F00BD21A7 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
 		4D64BB7327BE624700BD21A7 /* ProfileCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCardView.swift; sourceTree = "<group>"; };
+		4D6BC3A527BEFBE20008AEFF /* ProductCardBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardBot.swift; sourceTree = "<group>"; };
+		4D91F2AE27BE9F820076C449 /* ScrollViewHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewHorizontal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */,
+				42FD484E27C3AE56008FD2CE /* Image Picker */,
 				4D3D377427B6BEE2005D0203 /* Model */,
 				4D3D378E27BC0E6A005D0203 /* ViewModel */,
 				4D3D378D27BC0E34005D0203 /* Views */,
@@ -103,6 +124,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		42FD483D27C3AAE1008FD2CE /* ArtisanProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				42FD484627C3AAE1008FD2CE /* EditingProfileView.swift */,
+				42FD484027C3AAE1008FD2CE /* ProfileViewTools */,
+				42FD483E27C3AAE1008FD2CE /* ProductCreationView */,
+			);
+			path = ArtisanProfileView;
+			sourceTree = "<group>";
+		};
+		42FD483E27C3AAE1008FD2CE /* ProductCreationView */ = {
+			isa = PBXGroup;
+			children = (
+				42FD483F27C3AAE1008FD2CE /* ProductCreationView.swift */,
+			);
+			path = ProductCreationView;
+			sourceTree = "<group>";
+		};
+		42FD484027C3AAE1008FD2CE /* ProfileViewTools */ = {
+			isa = PBXGroup;
+			children = (
+				42FD484127C3AAE1008FD2CE /* ToolAddedBarView.swift */,
+				42FD484227C3AAE1008FD2CE /* ArtisanProfileImageView.swift */,
+				42FD484327C3AAE1008FD2CE /* ToolAddBarView.swift */,
+				42FD484427C3AAE1008FD2CE /* ToolPublishedView.swift */,
+				42FD484527C3AAE1008FD2CE /* TextInfoView.swift */,
+			);
+			path = ProfileViewTools;
+			sourceTree = "<group>";
+		};
+		42FD484E27C3AE56008FD2CE /* Image Picker */ = {
+			isa = PBXGroup;
+			children = (
+				42FD484F27C3AE56008FD2CE /* ImagePicker.swift */,
+			);
+			path = "Image Picker";
+			sourceTree = "<group>";
+		};
 		4D3D377427B6BEE2005D0203 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,10 +176,9 @@
 		4D3D378D27BC0E34005D0203 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4D64BB7027BE60ED00BD21A7 /* File Draft */,
-				4D3D379527BD0967005D0203 /* MainView */,
-				4D3D379627BD097F005D0203 /* ProductView */,
-				4D3D379727BD098B005D0203 /* ArtisanProfileView */,
+				42FD483D27C3AAE1008FD2CE /* ArtisanProfileView */,
+				4D64BB7027BE60ED00BD21A7 /* MainView */,
+				4D3D379527BD0967005D0203 /* ExploreView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,41 +192,37 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		4D3D379527BD0967005D0203 /* MainView */ = {
+		4D3D379527BD0967005D0203 /* ExploreView */ = {
 			isa = PBXGroup;
 			children = (
-				42E3604327B17BCF00C366A0 /* MainView.swift */,
+				42E3604327B17BCF00C366A0 /* ExploreView.swift */,
 				4D3D379327BD061B005D0203 /* GridView.swift */,
 				42E3604527B1830500C366A0 /* CardView.swift */,
+				4D3D379627BD097F005D0203 /* ProductView */,
 			);
-			path = MainView;
+			path = ExploreView;
 			sourceTree = "<group>";
 		};
 		4D3D379627BD097F005D0203 /* ProductView */ = {
 			isa = PBXGroup;
 			children = (
 				4D3D379E27BD4EF7005D0203 /* ProductView.swift */,
-				4D64BB7127BE621F00BD21A7 /* ProductCardView1.swift */,
+				4D64BB7127BE621F00BD21A7 /* ProductCardView.swift */,
+				4D6BC3A527BEFBE20008AEFF /* ProductCardBot.swift */,
+				4D91F2AE27BE9F820076C449 /* ScrollViewHorizontal.swift */,
 				4D64BB7327BE624700BD21A7 /* ProfileCardView.swift */,
 			);
 			path = ProductView;
 			sourceTree = "<group>";
 		};
-		4D3D379727BD098B005D0203 /* ArtisanProfileView */ = {
+		4D64BB7027BE60ED00BD21A7 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
-				4236D7B927BE975700A986F2 /* ProfileView.swift */,
-			);
-			path = ArtisanProfileView;
-			sourceTree = "<group>";
-		};
-		4D64BB7027BE60ED00BD21A7 /* File Draft */ = {
-			isa = PBXGroup;
-			children = (
-				4D3D379827BD0BBF005D0203 /* HeaderView.swift */,
+				4D3D379827BD0BBF005D0203 /* MainView.swift */,
 				42E3603227B1757C00C366A0 /* ContentView1.swift */,
+				423DBB1E27C3CFD700FB9A02 /* ProductInfoView.swift */,
 			);
-			path = "File Draft";
+			path = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,22 +297,32 @@
 			files = (
 				42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */,
 				4D3D378C27BC0E02005D0203 /* AccessModel.swift in Sources */,
-				42E3604427B17BCF00C366A0 /* MainView.swift in Sources */,
+				42E3604427B17BCF00C366A0 /* ExploreView.swift in Sources */,
+				42FD485027C3AE56008FD2CE /* ImagePicker.swift in Sources */,
 				4D3D377627B6BF0E005D0203 /* ArtisanModel.swift in Sources */,
 				42E3604627B1830500C366A0 /* CardView.swift in Sources */,
+				42FD484827C3AAE1008FD2CE /* ToolAddedBarView.swift in Sources */,
 				4D3D379027BC0F14005D0203 /* ArtisanViewModel.swift in Sources */,
-				4D64BB7227BE621F00BD21A7 /* ProductCardView1.swift in Sources */,
+				42FD484927C3AAE1008FD2CE /* ArtisanProfileImageView.swift in Sources */,
+				4D64BB7227BE621F00BD21A7 /* ProductCardView.swift in Sources */,
+				4D6BC3A627BEFBE20008AEFF /* ProductCardBot.swift in Sources */,
+				4D91F2AF27BE9F820076C449 /* ScrollViewHorizontal.swift in Sources */,
 				4D3D379227BC0FEA005D0203 /* ProductViewModel.swift in Sources */,
 				42E3603A27B1757E00C366A0 /* Persistence.swift in Sources */,
 				42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */,
-				4236D7BA27BE975700A986F2 /* ProfileView.swift in Sources */,
+				42FD484A27C3AAE1008FD2CE /* ToolAddBarView.swift in Sources */,
+				42FD484C27C3AAE1008FD2CE /* TextInfoView.swift in Sources */,
 				4D3D379B27BD1DCE005D0203 /* EnumStruct.swift in Sources */,
 				42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */,
+				42FD484D27C3AAE1008FD2CE /* EditingProfileView.swift in Sources */,
 				4D3D379427BD061B005D0203 /* GridView.swift in Sources */,
 				4D64BB7427BE624700BD21A7 /* ProfileCardView.swift in Sources */,
+				423DBB1F27C3CFD700FB9A02 /* ProductInfoView.swift in Sources */,
 				4D3D378A27BC0DDA005D0203 /* ProductModel.swift in Sources */,
-				4D3D379927BD0BBF005D0203 /* HeaderView.swift in Sources */,
+				42FD484B27C3AAE1008FD2CE /* ToolPublishedView.swift in Sources */,
+				4D3D379927BD0BBF005D0203 /* MainView.swift in Sources */,
 				4D3D379F27BD4EF7005D0203 /* ProductView.swift in Sources */,
+				42FD484727C3AAE1008FD2CE /* ProductCreationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

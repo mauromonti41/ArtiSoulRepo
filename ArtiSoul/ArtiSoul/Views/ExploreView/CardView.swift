@@ -10,7 +10,7 @@ import SwiftUI
 struct CardView: View {
     
 
-    var productImage: [Image]
+    var productImage: Image
     var productName: String
     var productArtisanName: String
     var productArtisanSurname: String
@@ -19,12 +19,12 @@ struct CardView: View {
         
         ZStack(alignment: .bottomLeading){
             
-            productImage[0]
+            productImage
                 .resizable()
                 .scaledToFill()
-                .frame(width: 150, height: 150)
+                .frame(width: 187, height: 187)
                 .cornerRadius(10)
-                .padding(2.0)
+                .padding(0.0)
                 
             
             VStack(alignment: .leading, spacing: 0.0){
@@ -44,14 +44,14 @@ struct CardView: View {
             .padding()
 //            .frame(width: /*@START_MENU_TOKEN@*/131.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/45.0/*@END_MENU_TOKEN@*/)
             
-        }.frame(width: 150, height: 150, alignment: .center)
+        }.frame(width: 187, height: 187, alignment: .center)
     }
 }
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
 //        CardView(productImage: [Image("SingleFlowerJar_1")], productName: "Single flower jar", productArtisanName: "Claudio", productArtisanSurname: "Pulicati")
-        CardView(productImage: [Image("Mug1")], productName: "Mug", productArtisanName: "Elisa", productArtisanSurname: "Castelletta")
+        CardView(productImage: Image("Mug1"), productName: "Mug", productArtisanName: "Elisa", productArtisanSurname: "Castelletta")
         
 //        CardView(productImage: [Image("Anemone1")], productName: "Anemone", productArtisanName: "Silvia", productArtisanSurname: "Raga")
 

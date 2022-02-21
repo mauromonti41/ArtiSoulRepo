@@ -13,7 +13,7 @@ struct ArtiSoulApp: App {
 
     var body: some Scene {
         WindowGroup {
-            MainView()
+            EditingProfileView(name: "Insert Your Name", surname: "Insert Your Surname", work: "Insert your job", linkToBeAdded: "Insert a new link", creationToBeAdded: "Insert a new creation")
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

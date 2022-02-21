@@ -1,20 +1,20 @@
 //
-//  ProfileCardView.swift
+//  SwiftUIView.swift
 //  ArtiSoul
 //
-//  Created by Pierluigi Iacono on 17/02/22.
+//  Created by Mauro Monti on 21/02/22.
 //
 
 import SwiftUI
 
-struct ProfileCardView: View {
+struct SwiftUIView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ProfileCardView_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileCardView()
+        SwiftUIView()
     }
 }

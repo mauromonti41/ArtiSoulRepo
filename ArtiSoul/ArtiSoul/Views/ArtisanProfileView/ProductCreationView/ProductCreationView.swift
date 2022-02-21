@@ -1,20 +1,20 @@
 //
-//  ProfileView.swift
+//  ProductCreationView.swift
 //  ArtiSoul
 //
-//  Created by Mauro Monti on 17/02/22.
+//  Created by Mauro Monti on 20/02/22.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
+struct ProductCreationView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
+struct ProductCreationView_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        ProductCreationView()
     }
 }
