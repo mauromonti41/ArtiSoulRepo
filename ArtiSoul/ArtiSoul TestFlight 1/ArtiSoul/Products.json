@@ -1,0 +1,45 @@
+
+  [
+      {
+    "name" : "Mug",
+    "artisanName" : "Elisa Castelletta",
+    "whatMadeOf": "Clay, nail varnish,",
+    "howToCare":"Wash me by hand. Dry me carefully.",
+    "howToMove":"Wrap me in paper that protects me and put me in a box.",
+    "image1":"Mug1",
+    "image2":"Mug2",
+    "image3":"Mug3",
+    "totalProductionTime":"15 days, which is equivalent to the first five seasons of Big Bang Theory.",
+    "title":"Ceramist",
+    "profileImage":"Castelletta"
+  },
+  
+  {
+    "name": "Anemone",
+    "artisanName" : "Silvia Raga",
+    "whatMadeOf": "Clay, nail varnish,",
+    "howToCare":"Wash me by hand. Dry me carefully.",
+    "howToMove":"Wrap me in paper that protects me and put me in a box.",
+    "image1":"Anemone1",
+    "image2":"Anemone2",
+    "image3":"Anemone3",
+    "totalProductionTime":"15 days, which is equivalent to the first five seasons of Big Bang Theory.",
+    "title":"Paper Artist",
+    "profileImage":"Raga"
+  },
+  
+  {
+    "name": "Single Flower Jar",
+    "artisanName" : "Claudio Pulicati",
+    "whatMadeOf": "Clay, nail varnish,",
+    "howToCare":"Wash me by hand. Dry me carefully.",
+    "howToMove":"Wrap me in paper that protects me and put me in a box.",
+    "image1":"SingleFlower1",
+    "image2":"SingleFlower2",
+    "image3":"SingleFlower3",
+    "totalProductionTime":"15 days, which is equivalent to the first five seasons of Big Bang Theory.",
+    "title":"Ceramist",
+    "profileImage":"Pulicati"
+  }
+  
+  ]
