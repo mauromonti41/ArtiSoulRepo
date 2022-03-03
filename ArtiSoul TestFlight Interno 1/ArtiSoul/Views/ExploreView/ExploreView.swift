@@ -10,7 +10,7 @@ import Foundation
 
 
 struct ExploreView: View {
-    
+    @EnvironmentObject var productViewModel : ProductViewModel
     @StateObject private var filters = FiltersClassDue()
     @StateObject private var viewModelProduct = ProductViewModel()
     @StateObject private var viewModelArtisan = ArtisanViewModel()
@@ -20,7 +20,7 @@ struct ExploreView: View {
         NavigationView{
             
                 ScrollView{
-                    GridView(artisans: viewModelArtisan.artisans, products: viewModelProduct.products)
+                    GridView()
                 }
             
                 .searchable(text: $searchText, prompt: "Search") {
@@ -33,7 +33,7 @@ struct ExploreView: View {
                     // filter list by moood
                     ForEach(filters.information) { item in
                     
-                           
+                            
                                 
                                 Text(item.name)
                                     .padding(.leading)
@@ -41,12 +41,7 @@ struct ExploreView: View {
                         
                     }
                 }
-            
-            .toolbar{
-                
-//                Bottoni
-                
-            }.navigationTitle("Explore")
+            .navigationTitle("Explore")
         }
     }
 }

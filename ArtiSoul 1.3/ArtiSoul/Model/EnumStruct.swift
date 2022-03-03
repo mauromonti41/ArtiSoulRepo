@@ -4,13 +4,12 @@
 //
 //  Created by Pierluigi Iacono on 16/02/22.
 //
-
 import Foundation
 import SwiftUI
 
 
-enum Tags: String, CaseIterable, Identifiable, Codable{
-    case all, Paper, Fabric, Clay, Metals, Wood, Plastic
+enum Tags: String, CaseIterable, Identifiable{
+    case all, Paper, Fabric, Clay, Metals, Wood, Plastic, Ceramic
     var id: Self {self}
 }
 
@@ -18,6 +17,7 @@ enum Tags: String, CaseIterable, Identifiable, Codable{
 struct Filters : Identifiable{
     
     let id = UUID()
+//    let icon: Image
     let name: String
     
 }
@@ -25,21 +25,15 @@ struct Filters : Identifiable{
 class FiltersClassDue : ObservableObject{
         
     @Published var information : [Filters] = [
-//        Filters(icon: Image(systemName: "eye.slash"), name: "  Clay"),
-//        Filters(icon: Image(systemName: "fork.knife"), name: "  Wood"),
-//        Filters(icon: Image(systemName: "flame"), name: "  Metal"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Plastic"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Fabric"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Paper")
         Filters(name: "Clay"),
         Filters(name: "Wood"),
         Filters(name: "Metal"),
         Filters(name: "Plastic"),
         Filters(name: "Fabric"),
-        Filters(name: "Paper")
+        Filters(name: "Paper"),
+        Filters(name: "Ceramic")
         ]
 }
-
 
 
 //class filtersClassDue : ObservableObject{

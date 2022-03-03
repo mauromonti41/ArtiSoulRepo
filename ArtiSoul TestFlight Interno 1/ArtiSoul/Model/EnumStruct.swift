@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 
-enum Tags: String, CaseIterable, Identifiable, Codable{
+enum Tags: String, CaseIterable, Identifiable{
     case all, Paper, Fabric, Clay, Metals, Wood, Plastic
     var id: Self {self}
 }
@@ -18,6 +18,7 @@ enum Tags: String, CaseIterable, Identifiable, Codable{
 struct Filters : Identifiable{
     
     let id = UUID()
+//    let icon: Image
     let name: String
     
 }
@@ -25,12 +26,6 @@ struct Filters : Identifiable{
 class FiltersClassDue : ObservableObject{
         
     @Published var information : [Filters] = [
-//        Filters(icon: Image(systemName: "eye.slash"), name: "  Clay"),
-//        Filters(icon: Image(systemName: "fork.knife"), name: "  Wood"),
-//        Filters(icon: Image(systemName: "flame"), name: "  Metal"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Plastic"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Fabric"),
-//        Filters(icon: Image(systemName: "leaf"), name: " Paper")
         Filters(name: "Clay"),
         Filters(name: "Wood"),
         Filters(name: "Metal"),
