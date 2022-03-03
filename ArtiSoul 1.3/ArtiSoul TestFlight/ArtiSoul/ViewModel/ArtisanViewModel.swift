@@ -18,10 +18,9 @@ class ArtisanViewModel: ObservableObject {
         ArtisanModel(name : "Silvia",surname: "Raga", title: "Paper Artist", profileImage: Image("Raga"),link: [Links(site: "instagram" , URL: "https://www.instagram.com/claudiopulicati/"),Links(site: "shop", URL: "https://claudiopulicati.com/collections/all"),Links(site: "website", URL: "https://claudiopulicati.com")],access: AccessModel(email: "default", password: "default"))
     ]
    
-    func addNewArtisan(name : String,surname : String,title : String, image : Image, link : [Links], access : AccessModel){
-        let newArtisan = ArtisanModel( name: name,surname: surname, title: title, profileImage: image, link : link, access: access)
-            self.artisans.append(newArtisan)
-            return
+    func addNewArtisan(_ artisan : ArtisanModel){
+        
+            self.artisans.append(artisan)
     }
     
     func checkArtisan (name: String) -> ArtisanModel{

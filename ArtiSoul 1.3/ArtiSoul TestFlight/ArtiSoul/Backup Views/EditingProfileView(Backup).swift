@@ -15,12 +15,8 @@
 //    
 //    @StateObject var artisanViewModel = ArtisanViewModel()
 //    
-//    @State var linkToBeAdded : String
-//    @State var creationToBeAdded : String
-//    
-//    @State var addNewLink : Bool = false
-//    @State var addNewCreation : Bool = false
-//    
+//    @Binding var profileEditingAllowed : Bool
+//    @Binding var artisan : ArtisanModel
 //    @Binding var profileIsCreated : Bool
 //    
 //    
@@ -30,11 +26,11 @@
 //            
 //            VStack{
 //            
-//                ArtisanProfileImageView()
+//                ArtisanProfileImageView(profileEditingAllowed: $profileEditingAllowed)
 //                    .padding(.top, -40)
 //                    .padding(.bottom, 22)
 //                
-//                TextInfoView(name: "", surname: "", work: "")
+//                TextInfoView(name: $artisan.name, surname: $artisan.surname, work: $artisan.title)
 //                    .background(.white)
 //              
 //                
@@ -48,7 +44,7 @@
 //                        .padding(.top,41)
 //                        .padding(.bottom, 10)
 //                    
-//                    Button(action:{addNewLink = true}){
+//                    Button(action:{}){
 //                        ToolAddBarView(thingToBeAdded: "link")
 //                    }
 //                    .padding(.leading,16)
@@ -81,21 +77,19 @@
 //                        .padding(.bottom, 10)
 //                    
 //                    
-//                    ToolPublishedView(productName: "Sia")
-//                        .padding(.leading,16)
-//                        .padding(.vertical,10)
-//                        .background(.white)
-//                    
-//                    ToolPublishedView(productName: "Febe")
-//                        .padding(.leading,16)
-//                        .padding(.vertical,10)
-//                        .background(.white)
 //                }
 //                
 //                .toolbar{
 //                    ToolbarItem(placement : .navigationBarTrailing){
 //                        Button("Done"){
-//                            profileIsCreated.toggle()
+//                            if !profileIsCreated && profileEditingAllowed {
+//                                profileIsCreated.toggle()
+//                                profileEditingAllowed.toggle()
+//                                artisanViewModel.addNewArtisan(artisan)
+//                            }
+//                            else{
+//                                profileEditingAllowed.toggle()
+//                            }
 //                        }
 //                    }
 //                }

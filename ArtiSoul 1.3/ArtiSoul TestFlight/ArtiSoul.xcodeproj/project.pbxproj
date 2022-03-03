@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		42A9B16627CE7F81002CC1C0 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B16527CE7F81002CC1C0 /* TextFieldModel.swift */; };
-		42A9B16827CE7FB0002CC1C0 /* NewProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B16727CE7FB0002CC1C0 /* NewProfileView.swift */; };
 		42A9B16A27CE82F6002CC1C0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B16927CE82F6002CC1C0 /* ProfileView.swift */; };
 		42A9B16C27CE8303002CC1C0 /* NewProfileCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B16B27CE8303002CC1C0 /* NewProfileCreationView.swift */; };
 		42A9B17327CE8329002CC1C0 /* WebSiteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B16E27CE8329002CC1C0 /* WebSiteButtonView.swift */; };
@@ -17,13 +16,14 @@
 		42A9B17627CE8329002CC1C0 /* ShopButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17127CE8329002CC1C0 /* ShopButtonView.swift */; };
 		42A9B17727CE8329002CC1C0 /* InstagramButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17227CE8329002CC1C0 /* InstagramButtonView.swift */; };
 		42A9B17927CE8336002CC1C0 /* EditedProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17827CE8336002CC1C0 /* EditedProfileView.swift */; };
-		42A9B17C27CE8416002CC1C0 /* EditingProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17B27CE8416002CC1C0 /* EditingProfileView.swift */; };
 		42A9B17E27CEBEC0002CC1C0 /* ArtisanProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17D27CEBEC0002CC1C0 /* ArtisanProfileImageView.swift */; };
 		42A9B18027CF6E9E002CC1C0 /* ExploreProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B17F27CF6E9D002CC1C0 /* ExploreProfileView.swift */; };
 		42A9B18227CF885B002CC1C0 /* ExploreProfileTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18127CF885B002CC1C0 /* ExploreProfileTileView.swift */; };
 		42A9B18427CFCA50002CC1C0 /* FavoriteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18327CFCA50002CC1C0 /* FavoriteButtonView.swift */; };
 		42A9B18827D0B779002CC1C0 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18727D0B779002CC1C0 /* FavoriteViewModel.swift */; };
 		42A9B18A27D0D795002CC1C0 /* FavoriteTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18927D0D795002CC1C0 /* FavoriteTileView.swift */; };
+		42A9B18C27D12D0A002CC1C0 /* EditingProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18B27D12D09002CC1C0 /* EditingProfileView.swift */; };
+		42A9B18E27D12D61002CC1C0 /* NewProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A9B18D27D12D61002CC1C0 /* NewProfileView.swift */; };
 		42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */; };
 		42E3603327B1757C00C366A0 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E3603227B1757C00C366A0 /* ContentView1.swift */; };
 		42E3603527B1757E00C366A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E3603427B1757E00C366A0 /* Assets.xcassets */; };
@@ -60,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		42A9B16527CE7F81002CC1C0 /* TextFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
-		42A9B16727CE7FB0002CC1C0 /* NewProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewProfileView.swift; path = "../../../../../../../Documents/GitHub/ArtiSoulRepo/ArtiSoul TestFlight 1/ArtiSoul/Views/ArtisanProfileView/NewProfileView.swift"; sourceTree = "<group>"; };
 		42A9B16927CE82F6002CC1C0 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		42A9B16B27CE8303002CC1C0 /* NewProfileCreationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProfileCreationView.swift; sourceTree = "<group>"; };
 		42A9B16E27CE8329002CC1C0 /* WebSiteButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSiteButtonView.swift; sourceTree = "<group>"; };
@@ -69,13 +68,14 @@
 		42A9B17127CE8329002CC1C0 /* ShopButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopButtonView.swift; sourceTree = "<group>"; };
 		42A9B17227CE8329002CC1C0 /* InstagramButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramButtonView.swift; sourceTree = "<group>"; };
 		42A9B17827CE8336002CC1C0 /* EditedProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditedProfileView.swift; sourceTree = "<group>"; };
-		42A9B17B27CE8416002CC1C0 /* EditingProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditingProfileView.swift; path = "../../../../../../../Documents/GitHub/ArtiSoulRepo/ArtiSoul TestFlight 1/ArtiSoul/Views/ArtisanProfileView/Artisan Editing Views/EditingProfileView.swift"; sourceTree = "<group>"; };
 		42A9B17D27CEBEC0002CC1C0 /* ArtisanProfileImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtisanProfileImageView.swift; sourceTree = "<group>"; };
 		42A9B17F27CF6E9D002CC1C0 /* ExploreProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreProfileView.swift; sourceTree = "<group>"; };
 		42A9B18127CF885B002CC1C0 /* ExploreProfileTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreProfileTileView.swift; sourceTree = "<group>"; };
 		42A9B18327CFCA50002CC1C0 /* FavoriteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButtonView.swift; sourceTree = "<group>"; };
 		42A9B18727D0B779002CC1C0 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewModel.swift; sourceTree = "<group>"; };
 		42A9B18927D0D795002CC1C0 /* FavoriteTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTileView.swift; sourceTree = "<group>"; };
+		42A9B18B27D12D09002CC1C0 /* EditingProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditingProfileView.swift; sourceTree = "<group>"; };
+		42A9B18D27D12D61002CC1C0 /* NewProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProfileView.swift; sourceTree = "<group>"; };
 		42E3602D27B1757C00C366A0 /* ArtiSoul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtiSoul.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E3603027B1757C00C366A0 /* ArtiSoulApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtiSoulApp.swift; sourceTree = "<group>"; };
 		42E3603227B1757C00C366A0 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
@@ -136,11 +136,11 @@
 		42A9B17A27CE8394002CC1C0 /* Backup Views */ = {
 			isa = PBXGroup;
 			children = (
+				42F6ED3727C3D97600C29D71 /* NewProfileView(Backup).swift */,
+				42FD484627C3AAE1008FD2CE /* EditingProfileView(Backup).swift */,
 				42FD484227C3AAE1008FD2CE /* ArtisanProfileImageView(Backup).swift */,
 				42A9B17027CE8329002CC1C0 /* EditedProfileView(Backup).swift */,
-				42FD484627C3AAE1008FD2CE /* EditingProfileView(Backup).swift */,
 				42F6ED3927C3DAC500C29D71 /* ProfileView(Backup).swift */,
-				42F6ED3727C3D97600C29D71 /* NewProfileView(Backup).swift */,
 			);
 			path = "Backup Views";
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				42A9B16927CE82F6002CC1C0 /* ProfileView.swift */,
-				42A9B17B27CE8416002CC1C0 /* EditingProfileView.swift */,
+				42A9B18B27D12D09002CC1C0 /* EditingProfileView.swift */,
 				42A9B17827CE8336002CC1C0 /* EditedProfileView.swift */,
-				42A9B16727CE7FB0002CC1C0 /* NewProfileView.swift */,
+				42A9B18D27D12D61002CC1C0 /* NewProfileView.swift */,
 				42A9B16B27CE8303002CC1C0 /* NewProfileCreationView.swift */,
 				42A9B16D27CE8329002CC1C0 /* EditedProfileViews */,
 				42FD484027C3AAE1008FD2CE /* EditingProfileViews */,
@@ -380,7 +380,6 @@
 				42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */,
 				4D3D378C27BC0E02005D0203 /* AccessModel.swift in Sources */,
 				42E3604427B17BCF00C366A0 /* ExploreView.swift in Sources */,
-				42A9B17C27CE8416002CC1C0 /* EditingProfileView.swift in Sources */,
 				42A9B18827D0B779002CC1C0 /* FavoriteViewModel.swift in Sources */,
 				42A9B16627CE7F81002CC1C0 /* TextFieldModel.swift in Sources */,
 				42A9B18427CFCA50002CC1C0 /* FavoriteButtonView.swift in Sources */,
@@ -391,7 +390,6 @@
 				42A9B17427CE8329002CC1C0 /* ExternalLinkView.swift in Sources */,
 				42A9B17927CE8336002CC1C0 /* EditedProfileView.swift in Sources */,
 				42E3604627B1830500C366A0 /* TileView.swift in Sources */,
-				42A9B16827CE7FB0002CC1C0 /* NewProfileView.swift in Sources */,
 				42FD484827C3AAE1008FD2CE /* ToolAddedBarView.swift in Sources */,
 				42A9B18A27D0D795002CC1C0 /* FavoriteTileView.swift in Sources */,
 				42A9B17727CE8329002CC1C0 /* InstagramButtonView.swift in Sources */,
@@ -414,6 +412,8 @@
 				4D3D379427BD061B005D0203 /* GridView.swift in Sources */,
 				4D64BB7427BE624700BD21A7 /* ProfileCardView.swift in Sources */,
 				42A9B16A27CE82F6002CC1C0 /* ProfileView.swift in Sources */,
+				42A9B18E27D12D61002CC1C0 /* NewProfileView.swift in Sources */,
+				42A9B18C27D12D0A002CC1C0 /* EditingProfileView.swift in Sources */,
 				42F6ED3627C3D94700C29D71 /* FavoriteView.swift in Sources */,
 				42A9B18027CF6E9E002CC1C0 /* ExploreProfileView.swift in Sources */,
 				4D3D378A27BC0DDA005D0203 /* ProductModel.swift in Sources */,

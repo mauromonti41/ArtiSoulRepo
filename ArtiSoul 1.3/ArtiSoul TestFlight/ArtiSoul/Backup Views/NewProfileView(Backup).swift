@@ -13,8 +13,10 @@
 //    let width: CGFloat = 0.0
 //    let height: CGFloat = 0.0
 //    
-//    @State private var password: String = ""
+//    
 //    @Binding var profileIsCreated : Bool
+//    @Binding var profileEditingAllowed : Bool
+//    @Binding var artisanAccessValues : AccessModel
 //    
 //    var body: some View {
 //        
@@ -57,7 +59,7 @@
 //                        .font(.system(size: 21))
 //
 //                        
-//                    TextField("JohnAppleseed@icloud.com", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+//                    TextField("JohnAppleseed@icloud.com", text: $artisanAccessValues.email)
 //                        .textFieldStyle(.roundedBorder)
 //                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
 //                    }
@@ -68,37 +70,35 @@
 //                        .fontWeight(.semibold)
 //                        .font(.system(size: 21))
 //                    
-//                    SecureField("******", text: $password)
+//                    SecureField("******", text: $artisanAccessValues.password)
 //                        .textFieldStyle(.roundedBorder)
 //                        .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
 //
 //                    }
 //
 //                Spacer()
-//                
+//                Button("Register"){
+//                    profileEditingAllowed = true
+//                }
+//                Button("Or Login"){
+//                    profileEditingAllowed = false
+//                    profileIsCreated = true
+//                }
 //            }
 //            .padding()
 //
 //            
 //            .navigationTitle("Profile")
-//            .toolbar {
-//                NavigationLink(destination: EditingProfileView(linkToBeAdded: "add new  link", creationToBeAdded: "add new creation",profileIsCreated: $profileIsCreated)){
-//                Text("Done")
-//                    .foregroundColor(Color.accentColor)
-//                }
-//                
-//            }
-//        
-//    
+//
 //        }
 //    }
 //}
-
+//
 
 //struct NewProfileView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        Group {
-//            NewProfileView(profileIsCreated: )
-//        }
+//
+//            NewProfileView()
+//
 //    }
 //}

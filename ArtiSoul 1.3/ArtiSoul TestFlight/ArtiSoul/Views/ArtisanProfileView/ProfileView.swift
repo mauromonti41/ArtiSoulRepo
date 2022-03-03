@@ -35,7 +35,7 @@ struct ProfileView: View {
         }
        
           else if profileEditingAllowed && profileIsCreated {
-                EditingProfileView(artisan: $artisan, profileEditingAllowed: $profileEditingAllowed, profileIsCreated: $profileIsCreated)
+              EditingProfileView(artisan: $artisan, profileEditingAllowed: $profileEditingAllowed, profileIsCreated: $profileIsCreated)
             }
             else if !profileIsCreated && profileEditingAllowed{
                 NewProfileCreationView(artisan: $artisan, profileEditingAllowed: $profileEditingAllowed, profileIsCreated: $profileIsCreated)
