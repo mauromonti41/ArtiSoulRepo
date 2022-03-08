@@ -1,0 +1,126 @@
+/* 
+  Localizable.strings
+  ArtiSoul
+
+  Created by Mauro Monti on 06/03/22.
+  
+*/
+// Filter:
+"text 0" = " ";
+"text 1" = "Clay";
+"text 2" = "Wood";
+"text 3" = "Metal";
+"text 4" = "Plastic";
+"text 5" = "Fabric";
+"text 6" = "Paper";
+
+// Artisan Model
+"text 7" = "Ceramist";
+"text 8" = "website";
+"text 9" = "Paper Artist";
+
+// Main view
+"text 10" = "Explore";
+"text 11" = "Favorites";
+"text 12" = "Profile";
+
+//Search -> favoriteView
+"text 13" = "Search";
+"text 14" = "Try";
+
+// EditingProfileView
+"text 15" = "Creations";
+"text 16" = "add new creation";
+"text 17" = "PUBLISHED";
+"text 18" = "Done";
+"text 19" = "Cancel";
+
+// EditedProfileView
+"text 20" = "creation";
+"text 21" = "Edit";
+
+
+// New Profile View
+"text 22" = "Are you an artisan?";
+"text 23" = "Sign In";
+"text 24" = "Sign in with Apple";
+"text 25" = "Or choose a username and password";
+"text 26" = "Register";
+"text 27" = "or Login";
+
+// ExternalLinkView
+"text 28" = "You don't have any yet!";
+
+//ToolAddedBarView
+"text 29" = "add new ";
+"text 30" = "new link";
+
+//ToolAddBarView
+"text 31" = "add ";
+"text 32" = "edit ";
+
+//TextInfoView
+"text 33" = "Name";
+"text 34" = "Surname";
+"text 35" = "Work";
+
+//ProductCardView
+"text 36" = "My total production time:";
+"text 37" = "What am I made of:";
+"text 38" = "How to take care of me:";
+"text 39" = "How to move me:";
+
+
+//Mug
+"text 40" = "Mug";
+"text 41" = "Clay, nail varnish";
+"text 42" = "Wash me by hand. Dry me carefully. Drink lots of herbal teas with me.";
+"text 43" = "Wrap me in paper that protects me and put me in a box";
+"text 44" = "15 days, which is equivalent to the first five seasons of Big Bang Theory";
+
+//Anemone
+"text 45" = "Anemone";
+"text 46" = "High quality cardboard. The color does not change over time and does not attract dust";
+"text 47" = "Keep me out of the wind. Avoid moving me too much. Dust me gently";
+"text 48" = "Carry me in a package of a similar size to mine, containing packaging to hold me in place";
+"text 49" = "12 days, which is equivalent to fourteen football matches";
+
+//Single Flower Jar
+
+"text 50" = "A thick volcanic armor, a rough and harsh skin, apparently insensitive to life, but which can hide a flowery bed";
+"text 51" = "For cleaning me, use a soft brush to remove dust. Make me beautiful for your guests";
+"text 52" = "Use a suitably sized box containing soft packaging to hold me in place";
+"text 53" = "8 days, which is equivalent Friends Marathon";
+
+"text 54" = "Links";
+
+//NewProductCreationView
+
+"text 55" = "New creation";
+"text 56" = "Material";
+
+//My total production time view
+
+"totalProdTime_prodPhases" = "Production phases";
+
+//Phases names
+
+"firstPhase" = "First Phase";
+"secondPhase" = "Second Phase";
+"thirdPhase" = "Third Phase";
+"fourthPhase" = "Fourth Phase";
+"fifthPhase" = "Fifth Phase";
+"sixthPhase" = "Sixth Phase";
+"seventhPhase" = "Seventh Phase";
+"eighthPhase" = "Eighth Phase";
+"ninethPhase" = "Nineth Phase";
+"tenthPhase" = "Tenth Phase";
+
+//Phase editing views
+
+"quote_nameOfProdPhase" = "Name of this production phase";
+"quote_timeOfProdPhase" = "Time of this production phase";
+"hours_ProdPhase" = "Hours";
+"quote_videoOfProdPhase1" = "A video of";
+"quote_videoOfProdPhase2" = "seconds that shows this phase";
+"quote_addAvideo" = "Add video";

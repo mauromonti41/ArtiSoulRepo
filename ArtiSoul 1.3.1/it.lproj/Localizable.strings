@@ -1,0 +1,124 @@
+/* 
+  Localizable.strings
+  ArtiSoul
+
+  Created by Mauro Monti on 06/03/22.
+  
+*/
+// Filter:
+"text 0" = " ";
+"text 1" = "Argilla";
+"text 2" = "Legno";
+"text 3" = "Metallo";
+"text 4" = "Plastica";
+"text 5" = "Tessuto";
+"text 6" = "Carta";
+
+// Artisan Model
+"text 7" = "Ceramista";
+"text 8" = "website";
+"text 9" = "Artista di carta";
+
+// Main view
+"text 10" = "Esplora";
+"text 11" = "Preferiti";
+"text 12" = "Profilo";
+
+//Search -> favoriteView
+"text 13" = "Cerca";
+"text 14" = "Prova:";
+
+// EditingProfileView
+"text 15" = "Creazioni";
+"text 16" = "aggiungi nuova creazione";
+"text 17" = "PUBBLICATE";
+"text 18" = "Fatto";
+"text 19" = "Annulla";
+
+// EditedProfileView
+"text 20" = "creatione";
+"text 21" = "Modifica";
+
+
+// New Profile View
+"text 22" = "Sei un artigiano?";
+"text 23" = "Registrati";
+"text 24" = "Registrati con Apple";
+"text 25" = "O scegli un username e una password";
+"text 26" = "Registrati";
+"text 27" = "o Accedi";
+
+// ExternalLinkView
+"text 28" = "Non hai ancora link!";
+
+//ToolAddedBarView
+"text 29" = "aggiungi nuova ";
+"text 30" = "nuovo link";
+
+//ToolAddBarView
+"text 31" = "aggiungi ";
+"text 32" = "modifica ";
+
+//TextInfoView
+"text 33" = "Nome";
+"text 34" = "Cognome";
+"text 35" = "Lavoro";
+
+//ProductCardView
+"text 36" = "Tempo di produzione";
+"text 37" = "Di cosa sono fatto";
+"text 38" = "Prendersi cura di me";
+"text 39" = "Come muovermi";
+
+//Mug
+"text 40" = "Tazza";
+"text 41" = "Argilla, vernice";
+"text 42" = "Lavami a mano. Asciugami con cura. Bevi molte tisane con me";
+"text 43" = "Avvolgimi nella carta per proteggermi e mettimi in una scatola";
+"text 44" = "15 giorni, che sarebbero le prime cinque stagioni di Big Bang Theory";
+
+//Anemone
+"text 45" = "Anemone";
+"text 46" = "Carta di alta qualità. Il mio colore non cambia col tempo e non attrae polvere";
+"text 47" = "Tienimi al riparo dal vento. Evita di muovermi troppo. Spolverami con delicatezza";
+"text 48" = "Spostami in pacchi della mia taglia, con un imballaggio che mi tenga dritto";
+"text 49" = "12 giorni, l'equivalente di quattordici partite di calcio";
+
+//Single Flower Jar
+"text 50" = "Una spessa corazza vulcanica, una pelle ruvida e ruvida, apparentemente insensibile alla vita, ma che può nascondere un'aiuola fiorita";
+"text 51" = "Per pulirmi, usa una spazzola morbida per rimuovere la polvere. Rendimi bello per i tuoi ospiti";
+"text 52" = "Usa una scatola di dimensioni adeguate contenente un imballaggio morbido per tenermi nella giusta posizione";
+"text 53" = "8 giorni, equivalenti a una maratona di Friends";
+
+"text 54" = "Link";
+
+//NewProductCreationView
+
+"text 55" = "Nuova creazione";
+"text 56" = "Materiale";
+
+//My total production time view
+
+"totalProdTime_prodPhases" = "Fasi di produzione";
+
+//Phases names
+
+"firstPhase" = "Prima Fase";
+"secondPhase" = "Seconda Fase";
+"thirdPhase" = "Terza Fase";
+"fourthPhase" = "Quarta Fase";
+"fifthPhase" = "Quinta fase";
+"sixthPhase" = "Sesta Fase";
+"seventhPhase" = "Settima Fase";
+"eighthPhase" = "Ottava Fase";
+"ninethPhase" = "Nona Fase";
+"tenthPhase" = "Decima Fase";
+
+//Phase editing views
+
+"quote_nameOfProdPhase" = "Nome di questa fase di produzione";
+"quote_timeOfProdPhase" = "Tempo di questa fase di produzione";
+"hours_ProdPhase" = "Ore";
+"quote_videoOfProdPhase1" = "Un video di";
+"quote_videoOfProdPhase2" = "secondi che mostri questa fase";
+"quote_addAvideo" = "Aggiungi video";
