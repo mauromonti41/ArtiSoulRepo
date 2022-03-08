@@ -24,6 +24,7 @@ struct ProductCreationView: View {
     let text33 : LocalizedStringKey = "text 33" //name
     let text55 : LocalizedStringKey = "text 55" //new creation
     let text56 : LocalizedStringKey = "text 56" //material
+    let text57 : LocalizedStringKey = "text 57" //FOTO
     
     var body: some View {
         NavigationView{
@@ -84,7 +85,7 @@ struct ProductCreationView: View {
             }
             
             VStack(spacing:0){
-                Text("PHOTOS")
+                Text(text57)
                     .font(.system(size: 12))
                     .fontWeight(.medium)
                     .frame(maxWidth: .infinity, alignment: .leading)

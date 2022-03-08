@@ -14,6 +14,10 @@ class ProductViewModel: ObservableObject{
     
     @Published var products: [ProductModel] = load("Products.json")
        
+    func checkMaterial(_ material : String)->[ProductModel]{
+        let filteredMaterialsArray = products.filter{$0.material == material}
+        return filteredMaterialsArray
+    }
 }
         func load<T: Decodable>(_ filename: String) -> T {
             let data: Data

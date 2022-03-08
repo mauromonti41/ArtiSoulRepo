@@ -22,6 +22,11 @@ struct EditedProfileView: View {
 //    @Binding var addNewCreation : Bool
     @Binding var profileEditingAllowed : Bool
     
+    let Creations : LocalizedStringKey = "text 15"
+    let PUBLISHED : LocalizedStringKey = "text 17"
+    let Edit : LocalizedStringKey = "text 21"
+    let WORKINPROGRESS : LocalizedStringKey = "WORKINPROGRESS"
+    
     var body: some View {
         
     
@@ -46,7 +51,7 @@ struct EditedProfileView: View {
                         .padding(.leading,16)
                         .padding(.top,14.5)
                     
-                    Text("Creations")
+                    Text(Creations)
                         .bold()
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .font(.system(size: 21))
@@ -61,7 +66,7 @@ struct EditedProfileView: View {
 //                    .padding(.vertical,10)
 //                    .background(.white)
                     
-                    Text("WORK IN PROGRESS")
+                    Text(WORKINPROGRESS)
                         .bold()
                         .font(.system(size: 12))
                         .fontWeight(.medium)
@@ -70,11 +75,11 @@ struct EditedProfileView: View {
                         .padding(.top,19)
                         .padding(.bottom, 10)
                     
-                    AddedBarView(item: artisan.name )
-                        .padding(.top,8)
-                        .padding(.leading,16)
+//                    AddedBarView(item: artisan.name )
+//                        .padding(.top,8)
+//                        .padding(.leading,16)
                     
-                    Text("PUBLISHED")
+                    Text(PUBLISHED)
                         .bold()
                         .font(.system(size: 12))
                         .fontWeight(.medium)
@@ -83,17 +88,17 @@ struct EditedProfileView: View {
                         .padding(.top,22)
                         .padding(.bottom, 10)
                     
-                    VStack(spacing:0){
-                        AddedBarView(item: artisan.name )
-                        AddedBarView(item: artisan.name )
-                    }
-                        .padding(.top,8)
-                        .padding(.leading,16)
+//                    VStack(spacing:0){
+//                        AddedBarView(item: artisan.name )
+//                        AddedBarView(item: artisan.name )
+//                    }
+//                        .padding(.top,8)
+//                        .padding(.leading,16)
                 }
                 .toolbar{
                     ToolbarItem(placement : .navigationBarTrailing){
                         
-                            Button("Edit"){
+                            Button(Edit){
                             profileEditingAllowed.toggle()
                             }
                     }

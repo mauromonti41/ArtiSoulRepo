@@ -177,6 +177,7 @@
 				4221365C27D6BD5300CD4EED /* WhatAmIMadeOfView.swift */,
 				4221366027D6C52100CD4EED /* HowToCareView.swift */,
 				4221366227D6C53100CD4EED /* HowToMoveView.swift */,
+				4221365E27D6C38F00CD4EED /* ProductPhotoView.swift */,
 			);
 			path = ProductCardDetailViews;
 			sourceTree = "<group>";
@@ -288,7 +289,6 @@
 				42FD483F27C3AAE1008FD2CE /* ProductCreationView.swift */,
 				4221364127D38BA500CD4EED /* MaterialPickerView.swift */,
 				4221366427D6C6D600CD4EED /* MyTotalProductionTimeView */,
-				4221365E27D6C38F00CD4EED /* ProductPhotoView.swift */,
 				4221366527D6C6F500CD4EED /* ProductCardDetailViews */,
 				4221365927D66E2F00CD4EED /* PhaseEditingViews */,
 			);

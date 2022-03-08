@@ -10,6 +10,7 @@ import SwiftUI
 struct ExternalLinkView: View {
     @State var artisan : ArtisanModel?
     @State var defaultArtisan : ArtisanModel = ArtisanModel(name: "", surname: "", title: "", profileImage: Image("defaultImage"), link: [Links(site: "", URL: "")], access: AccessModel(email: "", password: ""))
+    let anythingPresentYet : LocalizedStringKey = "text 28"
     var body: some View {
         
         HStack(spacing: 13){
@@ -25,7 +26,7 @@ struct ExternalLinkView: View {
                     WebSiteButtonView(link: item.URL)
                 }
                 else {
-                    Text("No links present")
+                    Text(anythingPresentYet)
                 }
             }
         }.frame(maxWidth: .infinity, alignment: .leading)

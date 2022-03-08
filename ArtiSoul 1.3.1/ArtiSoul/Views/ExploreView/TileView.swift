@@ -13,6 +13,7 @@ struct TileView: View {
     var productImage: String
     var productName: String
     var artisanName: String
+    var artisanSurname : String
    
     
     var body: some View {
@@ -35,7 +36,7 @@ struct TileView: View {
                     .foregroundColor(.primary)
                     
                 
-                Text("\(artisanName)"  )
+                Text("\(artisanName) \(artisanSurname)"  )
                     .font(.system(size: 13))
                     .foregroundColor(.secondary)
                     
@@ -47,12 +48,12 @@ struct TileView: View {
     }
 }
 
-struct TileView_Previews: PreviewProvider {
-    static var previews: some View {
-//        CardView(productImage: [Image("SingleFlowerJar_1")], productName: "Single flower jar", productArtisanName: "Claudio", productArtisanSurname: "Pulicati")
-        TileView(productImage: "defaultImage", productName: "default", artisanName: "default")
+//struct TileView_Previews: PreviewProvider {
+//    static var previews: some View {
+////        CardView(productImage: [Image("SingleFlowerJar_1")], productName: "Single flower jar", productArtisanName: "Claudio", productArtisanSurname: "Pulicati")
+//        TileView(productImage: "defaultImage", productName: "default", artisanName: "default")
 
 //        CardView(productImage: [Image("Anemone1")], productName: "Anemone", productArtisanName: "Silvia", productArtisanSurname: "Raga")
-
-    }
-}
+//
+//    }
+//}

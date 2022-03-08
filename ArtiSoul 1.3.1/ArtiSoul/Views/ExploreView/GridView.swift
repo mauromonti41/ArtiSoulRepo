@@ -29,10 +29,10 @@ struct GridView: View  {
                     
 //                        Richiamo CardView + parametri
                     
-                    let variableItem : ProductModel = ProductModel(name: item.name, material: item.material, artisanName: item.artisanName,artisanSurname: item.artisanSurname, whatMadeOf: item.whatMadeOf, howToCare: item.howToCare, howToMove: item.howToMove, image1: item.image1, image2: item.image2, image3: item.image3, totalProductionTime: item.totalProductionTime, title: item.title,profileImage: item.profileImage)
+                    let variableItem : ProductModel = ProductModel(name: item.name, material: item.material, artisanName: item.artisanName,artisanSurname: item.artisanSurname, whatMadeOf: item.whatMadeOf, howToCare: item.howToCare, howToMove: item.howToMove, image1: item.image1, image2: item.image2, image3: item.image3, image4: item.image4, totalProductionTime: item.totalProductionTime, title: item.title,profileImage: item.profileImage)
                        
                     NavigationLink(destination: ProductView(product: variableItem)){
-                        TileView(productImage: item.image1, productName: item.name, artisanName: item.artisanName)
+                        TileView(productImage: item.image1, productName: item.name, artisanName: item.artisanName, artisanSurname: item.artisanSurname)
                         .listRowBackground(Color.clear)
                         }
                     }

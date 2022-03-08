@@ -13,12 +13,16 @@ struct TextInfoView: View {
     @Binding var surname : String
     @Binding var work :    String
     
+    let Name:LocalizedStringKey="text 33"
+    let Surname:LocalizedStringKey="text 34"
+    let Work:LocalizedStringKey="text 35"
+    
     var body: some View {
         
         VStack{
             
             HStack{
-                Text("Name")
+                Text(Name)
                     .bold()
                     .padding(.trailing,24)
                 TextField("", text: $name)
@@ -27,7 +31,7 @@ struct TextInfoView: View {
             Divider()
                
             HStack{
-                Text("Surname")
+                Text(Surname)
                     .bold()
                 TextField("", text: $surname)
             }
@@ -35,7 +39,7 @@ struct TextInfoView: View {
             Divider()
             
             HStack{
-                Text("Work")
+                Text(Work)
                     .bold()
                     .padding(.trailing,29)
                 TextField("", text: $work)

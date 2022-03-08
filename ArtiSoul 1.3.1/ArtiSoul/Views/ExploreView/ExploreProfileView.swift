@@ -26,10 +26,7 @@ struct ExploreProfileView: View {
                     .padding(.top, 18)
                     .padding(.bottom, 11)
                 
-              
-                
                 ScrollView{
-                    
                     
                     Text("Links")
                         .bold()
@@ -52,17 +49,12 @@ struct ExploreProfileView: View {
                         .padding(.bottom, 10)
                     LazyVGrid(columns: columns, spacing: 7){
                     ForEach(productViewModel.products.filter{$0.artisanName == artisan.name}){item in
-                        
+                        NavigationLink(destination: ProductView(product: item)){
                         ExploreProfileTileView(productImage: item.image1, productName: item.name)
-                        
+                            }
                         }
                     }.padding(.horizontal,16)
-                        .padding(.top,18)
-                    
-                 
-                    
-                    
-                   
+                        .padding(.top,18)                 
                 }
             }
             .navigationTitle("\(artisan.name) \(artisan.surname)")

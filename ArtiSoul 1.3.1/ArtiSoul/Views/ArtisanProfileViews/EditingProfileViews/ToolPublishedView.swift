@@ -10,10 +10,13 @@ import SwiftUI
 struct ToolPublishedView: View {
     
     @State var productName : String
-    
+    let edit : LocalizedStringKey = "text 32"
     var body: some View {
         Button(action:{}){
-                Text("edit \(productName)")
+            HStack{
+                Text(edit)
+                Text("\(productName)")
+            }
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
     }

@@ -13,6 +13,9 @@ struct FavoriteView: View {
     @EnvironmentObject var favoriteViewModel : FavoriteViewModel
     @StateObject private var filters = FiltersClassDue()
     @State private var searchText = ""
+    let favorites : LocalizedStringKey = "text 11"
+    let Search : LocalizedStringKey = "text 13"
+    let Try : LocalizedStringKey = "text 14"
     
     var columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
     
@@ -30,8 +33,8 @@ struct FavoriteView: View {
                 }
             }
             .padding(.horizontal, 16)
-            .searchable(text: $searchText, prompt: "Search") {
-                Text("Try:")
+            .searchable(text: $searchText, prompt: Search) {
+                Text(Try)
                     .font(.title2)
                     .fontWeight(.bold)
                 //                        .foregroundColor(Color("AccentColor"))
@@ -45,7 +48,7 @@ struct FavoriteView: View {
                     
                 }
             }
-            .navigationTitle("Favorites")
+            .navigationTitle(favorites)
         }
     }
 }

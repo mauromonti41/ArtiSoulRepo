@@ -40,7 +40,7 @@ struct ProductCardView: View {
             Spacer()
             ZStack(alignment: .topTrailing){
             VStack(alignment: .leading, spacing: 0){
-                Image(product.image1)
+                Image(product.image2)
                 .resizable()
                     .scaledToFill()
                     .frame(width: 375, height: 460, alignment: .center)
@@ -54,7 +54,7 @@ struct ProductCardView: View {
             Spacer()
             ZStack(alignment: .topTrailing){
             VStack(alignment: .leading, spacing: 0){
-                Image(product.image2)
+                Image(product.image3)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 375, height: 460, alignment: .center)
@@ -68,7 +68,7 @@ struct ProductCardView: View {
             Spacer()
             ZStack(alignment: .topTrailing){
             VStack(alignment: .leading, spacing: 0){
-                Image(product.image3)
+                Image(product.image4)
                     .resizable()
                     .scaledToFill()
                     .frame(width: 375, height: 460, alignment: .center)

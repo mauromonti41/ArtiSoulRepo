@@ -38,7 +38,7 @@
 // EditedProfileView
 "text 20" = "creation";
 "text 21" = "Edit";
-
+"WORKINPROGRESS" = "WORK IN PROGRESS";
 
 // New Profile View
 "text 22" = "Are you an artisan?";
@@ -83,21 +83,21 @@
 "text 46" = "High quality cardboard. The color does not change over time and does not attract dust";
 "text 47" = "Keep me out of the wind. Avoid moving me too much. Dust me gently";
 "text 48" = "Carry me in a package of a similar size to mine, containing packaging to hold me in place";
-"text 49" = "12 days, which is equivalent to fourteen football matches";
-
+"text 49" = "8 days, which is equivalent Friends Marathon";
 //Single Flower Jar
 
 "text 50" = "A thick volcanic armor, a rough and harsh skin, apparently insensitive to life, but which can hide a flowery bed";
 "text 51" = "For cleaning me, use a soft brush to remove dust. Make me beautiful for your guests";
 "text 52" = "Use a suitably sized box containing soft packaging to hold me in place";
-"text 53" = "8 days, which is equivalent Friends Marathon";
+"text 53" = "12 days, which is equivalent to fourteen football matches";
 
 "text 54" = "Links";
 
-//NewProductCreationView
+//ProductCreationView
 
 "text 55" = "New creation";
 "text 56" = "Material";
+"text 57" = "PHOTO";
 
 //My total production time view
 
@@ -124,3 +124,26 @@
 "quote_videoOfProdPhase1" = "A video of";
 "quote_videoOfProdPhase2" = "seconds that shows this phase";
 "quote_addAvideo" = "Add video";
+
+//Product creation - Photo views
+
+//HowAmIMade
+
+"title_WhatAmIMadeOf" = "What am I made of";
+"quote_briefDescription1" = "Brief description about materials";
+"quote_photoMaterial" = "A photo that highlights materials";
+
+//HowToCare
+
+"title_HowToCare" = "How to take care of me";
+"quote_briefDescription2" = "Brief description about taking care of the product";
+"quote_photoCare" = "A photo holding the product with hands";
+
+//HowToMove
+
+"title_HowToMove" = "How to move me";
+"quote_briefDescription3" = "Brief description about how to move the product";
+"quote_photoMove" = "A photo that suggests the movement of the product";
+
+// Edit photo
+"editPhoto" = "photo";

@@ -12,7 +12,7 @@ import SwiftUI
 struct ToolAddBarView : View{
     
     @State var thingToBeAdded : String
-    
+    let add:LocalizedStringKey="text 31"
     var body: some View{
         
         HStack{
@@ -24,9 +24,13 @@ struct ToolAddBarView : View{
                 .clipShape(Circle())
                 .foregroundColor(.white)
             
-            Text("add \(thingToBeAdded)")
+            HStack{
+                Text(add)
+                .foregroundColor(.black)
+                Text("\(thingToBeAdded)")
                 .foregroundColor(.black)
                 
+            }
                 
         }
         .frame(maxWidth: .infinity, alignment: .leading)

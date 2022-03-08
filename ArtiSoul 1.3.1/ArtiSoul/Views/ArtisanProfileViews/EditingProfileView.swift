@@ -28,6 +28,12 @@ struct EditingProfileView: View {
     @Binding var profileIsCreated : Bool
     @State private var showingSheet = false
     
+    let creations : LocalizedStringKey = "text 15"
+    let addNewCreation : LocalizedStringKey = "text 16"
+    let PUBLISHED : LocalizedStringKey = "text 17"
+    let Done : LocalizedStringKey = "text 18"
+    let Cancel : LocalizedStringKey = "text 19"
+    
     var body: some View {
         
         
@@ -60,7 +66,7 @@ struct EditingProfileView: View {
                 .padding(.vertical,10)
                 .background(.white)
                 
-                Text("Creations")
+                Text(creations)
                     .bold()
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.system(size: 21))
@@ -69,7 +75,7 @@ struct EditingProfileView: View {
                     .padding(.bottom, 10)
                 
                 Button(action: {showingSheet.toggle()}){
-                    Text("add new creation")
+                    Text(addNewCreation)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     }
                 .padding(.leading,16)
@@ -77,7 +83,7 @@ struct EditingProfileView: View {
                 .background(.white)
                 
               
-                Text("PUBLISHED")
+                Text(PUBLISHED)
                     .bold()
                     .font(.system(size: 12))
                     .fontWeight(.medium)
@@ -88,7 +94,7 @@ struct EditingProfileView: View {
                 
             }
             .sheet(isPresented: $showingSheet) {
-                let newProduct : ProductModel = ProductModel(name: "", material: "", artisanName: artisan.name, artisanSurname: artisan.surname, whatMadeOf: "", howToCare: "", howToMove: "", image1: "defaultImage", image2: "defaultImage", image3: "defaultImage", totalProductionTime: "", title: artisan.title, profileImage: "defaultImage")
+                let newProduct : ProductModel = ProductModel(name: "", material: "", artisanName: artisan.name, artisanSurname: artisan.surname, whatMadeOf: "", howToCare: "", howToMove: "", image1: "defaultImage", image2: "defaultImage", image3: "defaultImage", image4: "defaultImage", totalProductionTime: "", title: artisan.title, profileImage: "defaultImage")
                 ProductCreationView(newProduct: newProduct)
             }
             
@@ -113,7 +119,7 @@ struct EditingProfileView: View {
                     
 //                    NavigationLink(destination: EditedProfileView(artisan: artisan, profileEditingAllowed: $profileEditingAllowed)){
                    
-                        Button("Done"){
+                        Button(Done){
                             if  !profileIsCreated && profileEditingAllowed{
                                 artisanViewModel.artisans.append(artisan)
                                 profileIsCreated.toggle()
@@ -129,7 +135,7 @@ struct EditingProfileView: View {
             }
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading){
-                    Button("Cancel"){
+                    Button(Cancel){
                         
                     }
                 }

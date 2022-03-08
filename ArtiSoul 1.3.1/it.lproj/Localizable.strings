@@ -36,9 +36,9 @@
 "text 19" = "Annulla";
 
 // EditedProfileView
-"text 20" = "creatione";
+"text 20" = "creazione";
 "text 21" = "Modifica";
-
+"WORKINPROGRESS" = "IN LAVORAZIONE";
 
 // New Profile View
 "text 22" = "Sei un artigiano?";
@@ -92,10 +92,11 @@
 
 "text 54" = "Link";
 
-//NewProductCreationView
+//ProductCreationView
 
 "text 55" = "Nuova creazione";
 "text 56" = "Materiale";
+"text 57" = "FOTO";
 
 //My total production time view
 
@@ -122,3 +123,28 @@
 "quote_videoOfProdPhase1" = "Un video di";
 "quote_videoOfProdPhase2" = "secondi che mostri questa fase";
 "quote_addAvideo" = "Aggiungi video";
+
+
+//Product creation - Photo views
+
+//HowAmIMade
+
+"title_WhatAmIMadeOf" = "Di cosa sono fatto";
+"quote_briefDescription1" = "Breve descrizione dei materiali";
+"quote_photoMaterial" = "Una foto che metta in risalto i materiali";
+
+//HowToCare
+
+"title_HowToCare" = "Prendersi cura di me";
+"quote_briefDescription2" = "Breve descrizione su come prendersene cura";
+"quote_photoCare" = "Una foto in cui esponi il prodotto tra le mani";
+
+//HowToMove
+
+"title_HowToMove" = "Come trasportarmi";
+"quote_briefDescription3" = "Breve descrizione sulle modalità di trasporto";
+"quote_photoMove" = "Una foto che suggerisce il trasporto del prodotto";
+
+//Edit photo
+
+"editPhoto" = "Modifica foto";

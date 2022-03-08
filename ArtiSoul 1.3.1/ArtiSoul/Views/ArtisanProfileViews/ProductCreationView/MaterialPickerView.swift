@@ -12,7 +12,7 @@ struct MaterialPickerView: View {
     @EnvironmentObject var filters : FiltersClassDue
     @Binding var material : String
     @Binding var selectedMaterial : String
-    
+    let text56 : LocalizedStringKey = "text 56" //material
     var body: some View {
         
         ZStack(){
@@ -40,7 +40,7 @@ struct MaterialPickerView: View {
         }
     }   .background(Color("gray1"))
         
-        .navigationTitle("Material")
+        .navigationTitle(text56)
             }
         }
         .padding(.top,50)

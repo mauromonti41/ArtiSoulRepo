@@ -13,7 +13,10 @@ struct ExploreView: View {
     @EnvironmentObject var productViewModel : ProductViewModel
     @StateObject private var filters = FiltersClassDue()
     @State private var searchText = ""
-    
+    let explore : LocalizedStringKey = "text 10"
+    let Search : LocalizedStringKey = "text 13"
+    let Try : LocalizedStringKey = "text 14"
+    @State var selectedMaterial : String = ""
     var body: some View{
         NavigationView{
             
@@ -21,8 +24,8 @@ struct ExploreView: View {
                 GridView()
             }
             
-            .searchable(text: $searchText, prompt: "Search") {
-                Text("Try:")
+            .searchable(text: $searchText, prompt: Search) {
+                Text(Try)
                     .font(.title2)
                     .fontWeight(.bold)
                 //                        .foregroundColor(Color("AccentColor"))
@@ -30,13 +33,15 @@ struct ExploreView: View {
                 
                 // filter list by moood
                 ForEach(filters.materials) { item in
-                    
+                    if item.name != " "{
+                        Button(action: {selectedMaterial = item.name}){
                     Text(item.name)
                         .padding(.leading)
-                    
+                    }
+                    }
                 }
             }
-            .navigationTitle("Explore")
+            .navigationTitle(explore)
         }
     }
 }

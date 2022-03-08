@@ -9,22 +9,25 @@ import Foundation
 import SwiftUI
 
 struct MainView: View {
+    let explore : LocalizedStringKey = "text 10"
+    let favorites : LocalizedStringKey = "text 11"
+    let profile : LocalizedStringKey = "text 12"
     
     var body: some View {
         TabView{
             
             ExploreView()
                 .tabItem{
-                    Label("Explore", systemImage: "square.on.square")
+                    Label(explore, systemImage: "square.on.square")
             }
             FavoriteView()
                 .tabItem{
-                    Label("Favorites", systemImage:"heart.fill")
+                    Label(favorites, systemImage:"heart.fill")
                 }
             
             ProfileView()
                 .tabItem{
-                    Label("Profile", systemImage: "person.fill")
+                    Label(profile, systemImage: "person.crop.circle")
                 }
         }
     }

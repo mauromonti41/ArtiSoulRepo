@@ -21,6 +21,8 @@ struct ArtisanProfileImageView: View {
         @Binding var profileImage : Image
         @Binding var profileEditingAllowed : Bool
     
+        let Edit : LocalizedStringKey = "text 21"
+    
     var body: some View {
         
         VStack{
@@ -46,7 +48,7 @@ struct ArtisanProfileImageView: View {
 //            }
             if profileEditingAllowed == true{
                 Button(action : {showingImagePicker.toggle() ;  if image != nil && image != Image("defaultImage"){imageIsPresent.toggle()} else {return}}){
-                Text("Edit")
+                Text(Edit)
                 }
             }
         }.onChange(of: inputImage) { _ in loadImage() }
@@ -59,7 +61,6 @@ struct ArtisanProfileImageView: View {
         guard let inputImage = inputImage else { return }
         image = Image(uiImage: inputImage)
         profileImage = image!
-        
     }
 }
 

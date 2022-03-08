@@ -23,6 +23,12 @@ struct NewProfileView: View {
     @Binding var artisanAccessValues : AccessModel
 //    @EnvironmentObject var artisanViewModel : ArtisanViewModel
     
+    let areYouArtisan : LocalizedStringKey = "text 22"
+    let signIn : LocalizedStringKey = "text 23"
+    let chooseUserPass : LocalizedStringKey = "text 25"
+    let Register : LocalizedStringKey = "text 26"
+    let Login : LocalizedStringKey = "text 27"
+    let Profile : LocalizedStringKey = "text 12"
     
     var body: some View {
         
@@ -30,7 +36,7 @@ struct NewProfileView: View {
             VStack{
             
                 
-                Text("Are you an artisan?")
+                Text(areYouArtisan)
                     .fontWeight(.regular)
                     .font(.system(size: 28))
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -38,7 +44,7 @@ struct NewProfileView: View {
                   .padding(.leading,16)
                     
 
-                    Text("Sign In")
+                    Text(signIn)
                         .fontWeight(.semibold)
                         .font(.system(size: 21))
                         .frame(maxWidth: .infinity, alignment: .leading)
@@ -49,7 +55,7 @@ struct NewProfileView: View {
                     .padding(.bottom,43)
 //                    }
                 
-                Text("Or choose a username and password")
+                Text(chooseUserPass)
                     .fontWeight(.medium)
                     .font(.system(size: 18))
                     .foregroundColor(Color.gray)
@@ -61,7 +67,7 @@ struct NewProfileView: View {
                     .padding()
                     
                 
-                    Button("Register"){
+                    Button(Register){
 
                         withAnimation{
                         profileEditingAllowed =  true
@@ -70,7 +76,7 @@ struct NewProfileView: View {
 
                 .padding(.bottom,20)
 
-                    Button(" Or Login"){
+                    Button(Login){
                         profileIsCreated = true
                         profileEditingAllowed = false
                     }
@@ -79,7 +85,7 @@ struct NewProfileView: View {
             }
         }
             .padding()
-            .navigationTitle("Profile")
+            .navigationTitle(Profile)
             .ignoresSafeArea(.keyboard, edges: .top)
         }
     }
