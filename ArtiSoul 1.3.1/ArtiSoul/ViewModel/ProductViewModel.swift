@@ -29,9 +29,15 @@ class ProductViewModel: ObservableObject{
 //        filteredArray.append(contentsOf: filteredArtisanSurnameArray)
         
         if filteredArray == []{
+            print("sono entrato nell'if")
             return standardArray
+           
         }
+        else{
+            print("sono entrato nell'else")
         return filteredArray
+       
+        }
     }
 }
         func load<T: Decodable>(_ filename: String) -> T {
