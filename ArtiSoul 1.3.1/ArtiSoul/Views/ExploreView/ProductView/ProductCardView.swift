@@ -4,14 +4,31 @@
 //
 //  Created by Pierluigi Iacono on 17/02/22.
 //
-
+import AVKit
 import SwiftUI
 import Foundation
+
+struct FullScreenModalView: View{
+    
+    @Environment(\.presentationMode) var presentationMode
+    @State var url = Bundle.main.url(forResource: "Claudio", withExtension: "mp4")
+    var body: some View{
+        VStack{
+            
+            VideoPlayer(player: AVPlayer(url: url!))
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
+        .edgesIgnoringSafeArea(.all)
+    }
+}
 
 struct ProductCardView: View {
     
     @EnvironmentObject var artisanViewModel : ArtisanViewModel
-    
+    @State var url = Bundle.main.url(forResource: "Claudio", withExtension: "mp4")
+    @State private var isPresented = false
+    @State var isReproducing = false
     @State var product : ProductModel
     
 //    var productImage: Image
@@ -27,12 +44,26 @@ struct ProductCardView: View {
             Spacer()
             ZStack(alignment: .topTrailing){
         VStack(alignment: .leading, spacing: 0){
-            Image(product.image1)
+            
+            if !isReproducing{
+                ZStack{
+                Image(product.image1)
                 .resizable()
-                .scaledToFill()
-                .frame(width: 375, height: 520, alignment: .center)
-                .cornerRadius(10, corners: [.topLeft, .topRight])
-//                .padding(0.0)
+                    .scaledToFill()
+                    .frame(width: 375, height: 520, alignment: .center)
+                    .cornerRadius(10, corners: [.topLeft, .topRight])
+                    PlayerButtonView()
+                }.onTapGesture {self.isPresented.toggle(); self.isReproducing.toggle()}
+            }
+            else{
+            VideoPlayer(player: AVPlayer(url: url!))
+                            .frame(width: 375, height: 520, alignment: .center)
+                            .scaledToFill()
+                            .cornerRadius(10, corners: [.topLeft, .topRight])
+//                            .onTapGesture {self.isPresented.toggle(); isReproducing = true}
+                            .fullScreenCover(isPresented: $isPresented,content: FullScreenModalView.init)
+                            .onDisappear{isReproducing.toggle()}
+            }
             ProductCardBot(description: "My total production time:", info: product.totalProductionTime)
                 .frame(width:375)
         }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420A414727D9072F001C03BA /* Claudio.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 420A414627D9072F001C03BA /* Claudio.mp4 */; };
+		420A414927D907AA001C03BA /* PlayerButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A414827D907AA001C03BA /* PlayerButtonView.swift */; };
+		420A414B27D911A3001C03BA /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420A414A27D911A3001C03BA /* PlayerViewModel.swift */; };
 		4221364227D38BA500CD4EED /* MaterialPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221364127D38BA500CD4EED /* MaterialPickerView.swift */; };
 		4221364627D4CDF100CD4EED /* MyTotalProductionTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221364527D4CDF100CD4EED /* MyTotalProductionTimeView.swift */; };
 		4221364827D4D2C700CD4EED /* DraftsProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4221364727D4D2C600CD4EED /* DraftsProductViewModel.swift */; };
@@ -73,6 +76,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420A414627D9072F001C03BA /* Claudio.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Claudio.mp4; path = ArtiSoul/Claudio.mp4; sourceTree = SOURCE_ROOT; };
+		420A414827D907AA001C03BA /* PlayerButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButtonView.swift; sourceTree = "<group>"; };
+		420A414A27D911A3001C03BA /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		4221364127D38BA500CD4EED /* MaterialPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialPickerView.swift; sourceTree = "<group>"; };
 		4221364527D4CDF100CD4EED /* MyTotalProductionTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTotalProductionTimeView.swift; sourceTree = "<group>"; };
 		4221364727D4D2C600CD4EED /* DraftsProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftsProductViewModel.swift; sourceTree = "<group>"; };
@@ -341,6 +347,7 @@
 			children = (
 				4D3D378F27BC0F14005D0203 /* ArtisanViewModel.swift */,
 				4D3D379127BC0FEA005D0203 /* ProductViewModel.swift */,
+				420A414A27D911A3001C03BA /* PlayerViewModel.swift */,
 				42A9B18727D0B779002CC1C0 /* FavoriteViewModel.swift */,
 				4221364727D4D2C600CD4EED /* DraftsProductViewModel.swift */,
 				4221365327D51C8400CD4EED /* PhaseViewModel.swift */,
@@ -365,9 +372,11 @@
 			children = (
 				4D3D379E27BD4EF7005D0203 /* ProductView.swift */,
 				4D64BB7127BE621F00BD21A7 /* ProductCardView.swift */,
+				420A414827D907AA001C03BA /* PlayerButtonView.swift */,
 				42A9B18327CFCA50002CC1C0 /* FavoriteButtonView.swift */,
 				4D6BC3A527BEFBE20008AEFF /* ProductCardBot.swift */,
 				4D64BB7327BE624700BD21A7 /* ProfileCardView.swift */,
+				420A414627D9072F001C03BA /* Claudio.mp4 */,
 			);
 			path = ProductView;
 			sourceTree = "<group>";
@@ -441,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E3603827B1757E00C366A0 /* Preview Assets.xcassets in Resources */,
+				420A414727D9072F001C03BA /* Claudio.mp4 in Resources */,
 				4221364D27D4EF8300CD4EED /* Localizable.strings in Resources */,
 				42F6ED3C27C4471900C29D71 /* Products.json in Resources */,
 				42E3603527B1757E00C366A0 /* Assets.xcassets in Resources */,
@@ -457,6 +467,7 @@
 				42E3603D27B1757E00C366A0 /* ArtiSoul.xcdatamodeld in Sources */,
 				4221366127D6C52100CD4EED /* HowToCareView.swift in Sources */,
 				4D3D378C27BC0E02005D0203 /* AccessModel.swift in Sources */,
+				420A414927D907AA001C03BA /* PlayerButtonView.swift in Sources */,
 				42E3604427B17BCF00C366A0 /* ExploreView.swift in Sources */,
 				42A9B18827D0B779002CC1C0 /* FavoriteViewModel.swift in Sources */,
 				42A9B16627CE7F81002CC1C0 /* TextFieldModel.swift in Sources */,
@@ -497,6 +508,7 @@
 				4D3D379B27BD1DCE005D0203 /* EnumStruct.swift in Sources */,
 				42F6ED3A27C3DAC500C29D71 /* ProfileView(Backup).swift in Sources */,
 				42E3603127B1757C00C366A0 /* ArtiSoulApp.swift in Sources */,
+				420A414B27D911A3001C03BA /* PlayerViewModel.swift in Sources */,
 				42FD484D27C3AAE1008FD2CE /* EditingProfileView(Backup).swift in Sources */,
 				4D64BB7427BE624700BD21A7 /* ProfileCardView.swift in Sources */,
 				42A9B16A27CE82F6002CC1C0 /* ProfileView.swift in Sources */,
