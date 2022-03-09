@@ -25,6 +25,9 @@ struct ProductCreationView: View {
     let text55 : LocalizedStringKey = "text 55" //new creation
     let text56 : LocalizedStringKey = "text 56" //material
     let text57 : LocalizedStringKey = "text 57" //FOTO
+    let Done : LocalizedStringKey = "text 18"
+    let Close : LocalizedStringKey = "text 19"
+    
     
     var body: some View {
         NavigationView{
@@ -148,14 +151,14 @@ struct ProductCreationView: View {
             .padding(.top, 50)
             .toolbar{
             ToolbarItem(placement: .navigationBarTrailing){
-                Button("Done"){
+                Button(Done){
                     
                 }
             }
         }
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading){
-                Button("Close"){
+                Button(Close){
                     dismiss()
                 }
             }

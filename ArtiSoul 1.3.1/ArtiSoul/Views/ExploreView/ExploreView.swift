@@ -16,16 +16,21 @@ struct ExploreView: View {
     let explore : LocalizedStringKey = "text 10"
     let Search : LocalizedStringKey = "text 13"
     let Try : LocalizedStringKey = "text 14"
-    @State var selectedMaterial : String = ""
+    @State var selectedProducts : String = ""
+    
     var body: some View{
+        
         NavigationView{
-            
+        
             ScrollView{
-                GridView()
+                VStack{
+                GridView(selectedProducts: selectedProducts)
+                }
             }
             
-            .searchable(text: $searchText, prompt: Search) {
+            .searchable(text: $selectedProducts, prompt: Search) {
                 Text(Try)
+                    .foregroundColor(.accentColor)
                     .font(.title2)
                     .fontWeight(.bold)
                 //                        .foregroundColor(Color("AccentColor"))
@@ -33,11 +38,13 @@ struct ExploreView: View {
                 
                 // filter list by moood
                 ForEach(filters.materials) { item in
-                    if item.name != " "{
-                        Button(action: {selectedMaterial = item.name}){
-                    Text(item.name)
-                        .padding(.leading)
-                    }
+                    if item.name != ""{
+                        Button(action: {selectedProducts = item.name}){
+                        Text(item.localizedName)
+                                .foregroundColor(.black)
+                        }
+                        .frame(maxWidth : .infinity, alignment : .leading)
+                        .padding(.leading,16)
                     }
                 }
             }

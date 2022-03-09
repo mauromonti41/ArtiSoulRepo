@@ -16,13 +16,14 @@ struct GridView: View  {
 //    var artisans : [ArtisanModel]
 //    @State var product : ProductModel
     var columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+    @State var selectedProducts : String
     
     var body: some View {
         
         LazyVGrid(columns: columns, spacing: 7){
 
 //            Section{
-                ForEach(productViewModel.products){ item in
+            ForEach(productViewModel.filterProducts(selectedProducts)){ item in
                     
 //                    NAVIGATION LINK INATTIVO
 //                    NavigationLink(destination: ProductView()){
@@ -56,9 +57,9 @@ struct GridView: View  {
 
 
 
-struct MyView_Previews: PreviewProvider {
-    static var previews: some View {
-        GridView()
-    }
-}
+//struct MyView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        GridView()
+//    }
+//}
 

@@ -35,6 +35,7 @@ struct FavoriteView: View {
             .padding(.horizontal, 16)
             .searchable(text: $searchText, prompt: Search) {
                 Text(Try)
+                    .foregroundColor(.accentColor)
                     .font(.title2)
                     .fontWeight(.bold)
                 //                        .foregroundColor(Color("AccentColor"))

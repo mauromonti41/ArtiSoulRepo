@@ -268,7 +268,7 @@
 			path = FavoriteViews;
 			sourceTree = "<group>";
 		};
-		42FD483D27C3AAE1008FD2CE /* ArtisanProfileViews */ = {
+		42FD483D27C3AAE1008FD2CE /* ArtisanProfileView */ = {
 			isa = PBXGroup;
 			children = (
 				42A9B16927CE82F6002CC1C0 /* ProfileView.swift */,
@@ -280,7 +280,7 @@
 				42FD484027C3AAE1008FD2CE /* EditingProfileViews */,
 				42FD483E27C3AAE1008FD2CE /* ProductCreationView */,
 			);
-			path = ArtisanProfileViews;
+			path = ArtisanProfileView;
 			sourceTree = "<group>";
 		};
 		42FD483E27C3AAE1008FD2CE /* ProductCreationView */ = {
@@ -332,7 +332,7 @@
 			children = (
 				4D64BB7027BE60ED00BD21A7 /* MainView */,
 				42F6ED3427C3D91000C29D71 /* FavoriteViews */,
-				42FD483D27C3AAE1008FD2CE /* ArtisanProfileViews */,
+				42FD483D27C3AAE1008FD2CE /* ArtisanProfileView */,
 				4D3D379527BD0967005D0203 /* ExploreView */,
 			);
 			path = Views;

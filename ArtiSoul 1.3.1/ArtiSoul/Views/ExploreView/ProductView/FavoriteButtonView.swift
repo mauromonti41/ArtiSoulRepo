@@ -39,17 +39,21 @@ struct FavoriteButtonView: View {
                 Image(systemName: "heart")
                     .resizable()
                     .foregroundColor(.accentColor)
-                    .frame(width: 30, height: 29)
+                    .frame(width: 30, height: 30)
                     .padding()
-                .frame(width: 60, height: 60)
+                .frame(width: 37, height: 37)
+                .padding(.top,14)
+                .padding(.trailing,14)
             }
             else {
                 Image(systemName: "heart.fill")
                     .resizable()
                     .foregroundColor(.accentColor)
-                    .frame(width: 30, height: 29)
+                    .frame(width: 30, height: 30)
                     .padding()
-                    .frame(width: 60, height: 60)
+                    .frame(width: 37, height: 37)
+                    .padding(.top,14)
+                    .padding(.trailing,14)
             }
         }
     }

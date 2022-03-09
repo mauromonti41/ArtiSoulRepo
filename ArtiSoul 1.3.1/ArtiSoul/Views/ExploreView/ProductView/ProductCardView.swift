@@ -21,6 +21,7 @@ struct ProductCardView: View {
     
     var body: some View {
         
+        VStack(spacing: 5){
         ScrollView(.horizontal){
         HStack(spacing: 3){
             Spacer()
@@ -29,7 +30,7 @@ struct ProductCardView: View {
             Image(product.image1)
                 .resizable()
                 .scaledToFill()
-                .frame(width: 375, height: 460, alignment: .center)
+                .frame(width: 375, height: 520, alignment: .center)
                 .cornerRadius(10, corners: [.topLeft, .topRight])
 //                .padding(0.0)
             ProductCardBot(description: "My total production time:", info: product.totalProductionTime)
@@ -43,7 +44,7 @@ struct ProductCardView: View {
                 Image(product.image2)
                 .resizable()
                     .scaledToFill()
-                    .frame(width: 375, height: 460, alignment: .center)
+                    .frame(width: 375, height: 520, alignment: .center)
                     .cornerRadius(10, corners: [.topLeft, .topRight])
     //                .padding(0.0)
                 ProductCardBot(description: "What am I made of:", info: product.whatMadeOf)
@@ -57,7 +58,7 @@ struct ProductCardView: View {
                 Image(product.image3)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 375, height: 460, alignment: .center)
+                    .frame(width: 375, height: 520, alignment: .center)
                     .cornerRadius(10, corners: [.topLeft, .topRight])
     //                .padding(0.0)
                 ProductCardBot(description: "How to take care of me:", info: product.howToCare)
@@ -71,11 +72,12 @@ struct ProductCardView: View {
                 Image(product.image4)
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 375, height: 460, alignment: .center)
+                    .frame(width: 375, height: 520, alignment: .center)
                     .cornerRadius(10, corners: [.topLeft, .topRight])
     //                .padding(0.0)
                 ProductCardBot(description: "How to move me:", info: product.howToMove)
                     .frame(width:375)
+                    
             }
                 FavoriteButtonView(product: product)
             }
@@ -85,6 +87,10 @@ struct ProductCardView: View {
         NavigationLink(destination: ExploreProfileView(artisan: artisanViewModel.checkArtisan(name: product.artisanName))){
         ProfileCardView(name: product.artisanName,surname: product.artisanSurname, title: product.title, profileImage: product.profileImage)
         }
+        .padding(.top,12)
+        }
+        .padding(.bottom,2)
+
     }
     
     func switchFavorite(favorite: inout Bool){

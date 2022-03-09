@@ -14,9 +14,24 @@ class ProductViewModel: ObservableObject{
     
     @Published var products: [ProductModel] = load("Products.json")
        
-    func checkMaterial(_ material : String)->[ProductModel]{
-        let filteredMaterialsArray = products.filter{$0.material == material}
-        return filteredMaterialsArray
+    func filterProducts(_ selectionString : String)->[ProductModel]{
+        let filteredMaterialsArray = products.filter{$0.material == selectionString}
+        let filteredArtisanNameArray = products.filter{$0.artisanName == selectionString}
+        let filteredArtisanSurnameArray = products.filter{$0.artisanSurname == selectionString}
+        let filteredProductsArray = products.filter{$0.name == selectionString}
+        
+        let filteredArray : [ProductModel] = filteredProductsArray + filteredMaterialsArray + filteredArtisanNameArray + filteredArtisanSurnameArray
+        let standardArray = products
+        
+//        filteredArray.append(contentsOf: filteredProductsArray)
+//        filteredArray.append(contentsOf: filteredMaterialsArray)
+//        filteredArray.append(contentsOf: filteredArtisanNameArray)
+//        filteredArray.append(contentsOf: filteredArtisanSurnameArray)
+        
+        if filteredArray == []{
+            return standardArray
+        }
+        return filteredArray
     }
 }
         func load<T: Decodable>(_ filename: String) -> T {

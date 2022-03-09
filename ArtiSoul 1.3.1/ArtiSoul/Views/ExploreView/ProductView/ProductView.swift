@@ -19,11 +19,12 @@ struct ProductView: View {
         
         
             
-            VStack{
+            
                 ProductCardView(product: product)
-                
-            }.navigationTitle(product.name)
-        
+            
+            
+            .navigationTitle(product.name)
+            .navigationBarTitleDisplayMode(.inline)
     }
 }
 

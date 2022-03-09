@@ -27,22 +27,13 @@ struct ArtisanProfileImageView: View {
         
         VStack{
             
-            if image == nil{
-                 Image("defaultImage")
-                .resizable()
-                .scaledToFill()
-                .background(.black)
-                .clipShape(Circle())
-                .frame(width: 187, height: 187)
-            }
-            else {
-                image?
+                profileImage
                .resizable()
                .scaledToFill()
                .background(.black)
                .clipShape(Circle())
                .frame(width: 187, height: 187)
-            }
+            
 //            Button(action : {showingImagePicker.toggle() ;  if imageIsPresent != true{imageIsPresent.toggle()}}){
 //                Text("Edit")
 //            }
